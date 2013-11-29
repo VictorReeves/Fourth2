@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>VictorReeves</title>
+<link rel="stylesheet" href="bigDemo.css" type="text/css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.js"></script>
+<style type="text/css">
+.img-list ul,li { padding:0; margin:0}
+.img-list ul,li { list-style:none}
+ .img-scroll { position:relative; margin:20px auto; width:440px;}
+ .img-scroll .left,.img-scroll .right { position:absolute; display:block; width:50px; height:100px; background-color:#000;
+ top:0; color:#FFF; text-align:center; line-height:100px}
+ .img-scroll .left { left:0;cursor:pointer;}
+ .img-scroll .right { right:0;cursor:pointer;}
+ .img-list { position:relative; width:320px; height:100px; margin-left:60px; overflow:hidden}
+ .img-list ul { width:9999px;}
+ .img-list li { float:left; display:inline; width:100px; margin-right:10px; height:100px; background-color:#BDBDDF; text-align:center; line-height:100px;}
+</style>
+</head>
+<body>
+  <div class="main">
+     <div class="bgTop">
+     <ul class="bgTopl">
+     <li><a href="?" target="_blank">sitemap</a></li>
+     <li>︳</li>
+     <li><a href="http://www.baidu.com">search</a></li>
+     <li>︳</li>
+     <li><a href="?">user area</a></li>
+     </ul>
+     </div>
+     <div>
+       <input type="text" value="Search here ..." onfocus="if(value=='Search here ...') {value=''}" onblur="if (value=='') {value='Search here ...'}">
+       <button class="b1" background="url(b01.png)">
+     </div>
+     <div class="nav">
+       <ul class="bgTopb">
+         <li class="rd-l"><a href="#" class="rd-l"><b>HOME</b></a></li>
+         <li><a href="#"><b>ABOUT</b></a></li>
+         <li><a href="#"><b>SERVICES</b></a></li>
+         <li><a href="#"><b>PROJECTS</b></a></li>
+         <li><a href="#"><b>SOLUTIONS</b></a></li>
+         <li><a href="#"><b>JOBS</b></a></li>
+         <li><a href="#"><b>BLOG</b></a></li>
+         <li class="rd-r"><a href="#" class="rd-r"><b>CONTACTS</b></a></li>
+       </ul>
+     </div>
+     <div class="img_list2">
+     <img src="20131116131331.jpg">
+     </div>
+     <div class="contentL">
+        <div class="contentT">
+          <h2>Hello Stranger!</h2>
+          <p><b>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Cras id molestie enim.Suspendisse consequat urnanon ante gravida euismod.ln in nibh vestibulum at tellus viverra nulla</b></p>
+          <p>Aliquam pulvinar.Maecenas arcu venenatis et ultrices id.tincidunt ut nisl.Etiam augue lectus.Lorem ipsum dolor sit amet.consectetur adipiscing elit.Cras id molestie enim.Suspendisse consequat uma non ante graviada euismod.ln in nibh nulla.Stibulum at tellus viverra nulla aliquam pulvinar,Maecenas nulla arcu.venenatis et ultrices id.tincidunt ut nisl.Maecenas nulla arcu.venenatis et ultrices id.tincidunt ut nisl.Etiam augue lectus.Lorem ipsum dolor sit amet.consect dolor sit amet adipising ultrices id.tincidunt ut nisl.</p>
+          <button class="b2">Learn More</button>
+        </div>
+        <div class="contentB">
+          <div class="text">
+          <h2>Featured Games</h2>
+          <p>Lorem ipsum dolor sit amet.consectetur adipiscing elit.Cras id molestie enim.Suspendisse consequat umanon ante gravida euismod,ln in nibh vestibulum at tellus viverra nulla.</p>
+          </div>
+        
+     </div>
+     <div class="contentR">
+      <h2>Our Services</h2>
+      <ul>
+        <li><a href="">Maecenas elementum tortor id massa lobortis</a></li>
+        <li><a href="">Lipsum amet accumsan ultricies mi.et adipin</a></li>
+        <li><a href="">Mauris id nibh condimentum tortor </a></li>
+        <li><a href="">Maecenas elementum tortor id massa lobortis</a></li>
+        <li><a href="">Lipsum amet accumsan ultricies mi.et adipin</a></li>
+        <li><a href="">Maecenas elementum tortor id massa lobortis</a></li>
+        <li><a href="">Mauris id nibh condimentum tortor sodales</a></li>
+      </ul>
+     </div>
+     <div class="foot">
+         <div class="footL">
+         <ul>
+            <li><a href="">Home</a></li>
+            <li>︳</li>
+            <li><a href="">About</a></li>
+            <li>︳</li>
+            <li><a href="">Services</a></li>
+            <li>︳</li>
+            <li><a href="">Projects</a></li>
+            <li>︳</li>
+            <li><a href="">Solutions</a></li>
+            <li>︳</li>
+            <li><a href="">Jobs</a></li>
+            <li>︳</li>
+            <li><a href="">Blog</a></li>
+            <li>︳</li>
+            <li><a href="#">Contacts</a></li>
+            </ul>
+         </div>
+         <div class="footR">
+          Copyright 2011 ︳Sitename.Design by<a href="#">CSS-Free-Templates.com</a>
+         </div>
+     </div>
+  </div>
+<div class="img-scroll">
+    <button class="left">left</button>
+    <button class="right">right</button>
+    <div class="img-list">
+        <ul>
+            <li><img style="width:100px;height:100px;" src="./img/cat.jpg"></li>
+            <li><img style="width:100px;height:100px;" src="./img/katong.jpg"></li>
+            <li><img style="width:100px;height:100px;" src="./img/meinv.jpg"></li>
+            <li><img style="width:100px;height:100px;" src="./img/mm.jpg"></li>
+            <li><img style="width:100px;height:100px;" src="./img/慢慢.jpg"></li>
+            <li><img style="width:100px;height:100px;" src="./img/美食杰-糖糖.jpg"></li>
+            <li><img style="width:100px;height:100px;" src="./img/未命名44.jpg"></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+ function scroll(wraper,left,right,img,speed,or)
+ { 
+  var wraper = $(wraper);
+  var left = $(left);
+  var right = $(right);
+  var img = $(img).find('ul');
+  var w = img.find('li').outerWidth(true);
+  var s = speed;
+  right.click(function()
+       {
+        img.animate({'margin-left':-w},function()
+                  {
+                   img.find('li').eq(0).appendTo(img);
+                   img.css({'margin-left':0});
+                   });
+        });
+  left.click(function()
+       {
+        img.find('li:last').prependTo(img);
+        img.css({'margin-left':-w});
+        img.animate({'margin-left':0});
+        });
+  if (or == true)
+  {
+   ad = setInterval(function() { right.click();},s*1000);
+   wraper.hover(function(){clearInterval(ad);},function(){ad = setInterval(function() { right.click();},s*1000);});
+  }
+ }
+ scroll('.img-scroll','.left','.right','.img-list',3);// 
+</script>
+
+</body>
+
+</html>
